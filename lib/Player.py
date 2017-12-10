@@ -11,7 +11,7 @@ from os.path import sep
 
 sys.path.append("."+sep+"vlc")
 
-import vlc
+from vlc import vlc
 import time
 from threading import Thread, Lock
 import random
