@@ -1,3 +1,0 @@
-[submodule "lib/config_reader"]
-	path = lib/config_reader
-	url = git@github.com:diegoHr/python-config-reader.git
