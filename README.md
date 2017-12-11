@@ -14,7 +14,7 @@ Also It works with youtube lists.
 ## Installation
 
 ### Linux
- 1. Install VLC player, python 3 and pip3.
+ 1. Install VLC player, python 3, pip3 and virtualenv.
  2. Download the project.
  3. Give execution permissions to all scripts that are in linux folder (`chmod +x ./linux/*`).
  4. Open linux folder in console (`cd ./linux`).
@@ -23,6 +23,7 @@ Also It works with youtube lists.
 
 ### Windows
   1. Install VLC player and a release of python3 with pip3.
+   * Make sure the option "Add Python to environment variables" is checked in the step named *Advanced Options* of the python3 installation wizard.  
   2. Download the project.
   3. Execute the script named **install-dependencies.bat**, that is in windows folder. And it will install dependencies of **requirements.txt** file.
 
@@ -41,6 +42,8 @@ https://www.youtube.com/watch?v=8Z5EjAmZS1o
 https://www.youtube.com/watch?v=d7hVQpyKLGg
 ```
 You should name the file urls.list.
+
+In windows It is mandatory that the encoding format be ANSI.
 
 ## Configuring Player
 The configuration of the player is in the file **youtubePlayer.conf**.
